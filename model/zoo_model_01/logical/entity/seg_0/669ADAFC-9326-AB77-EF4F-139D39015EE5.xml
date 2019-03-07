@@ -1,0 +1,228 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="669ADAFC-9326-AB77-EF4F-139D39015EE5" name="STAFF">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 16:20:52 UTC</createdTime>
+<ownerDesignName>zoo_model_01</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="C29ACB12-8523-7F20-089D-0F6A3D11F419">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 16:27:02 UTC</createdTime>
+<ownerDesignName>zoo_model_01</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="7ABADD8F-4AA2-927E-FFEF-E9EE08496155">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 16:27:14 UTC</createdTime>
+<ownerDesignName>zoo_model_01</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SURNAME" id="0749BD90-A032-3CF9-3437-ABEE263EA0B1">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 16:27:35 UTC</createdTime>
+<ownerDesignName>zoo_model_01</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS_STREET" id="359C1927-726A-1AA8-BCCB-2A60AF7D71CC">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 16:28:21 UTC</createdTime>
+<ownerDesignName>zoo_model_01</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS_NO" id="396BC893-CFFA-0A89-CF11-7E737135DC16">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 16:28:44 UTC</createdTime>
+<ownerDesignName>zoo_model_01</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS_CITY" id="E8DDAF68-C5F7-A2F3-43AD-5A4E94D71C41">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 16:29:23 UTC</createdTime>
+<ownerDesignName>zoo_model_01</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS_POSTCODE" id="412466B4-F0DE-AC7C-97DE-6EF1D65ACF51">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 16:29:56 UTC</createdTime>
+<ownerDesignName>zoo_model_01</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENDER" id="399E27AD-656F-ADB5-2367-310E722FC853">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 16:30:16 UTC</createdTime>
+<ownerDesignName>zoo_model_01</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SUPERVISOR_ID" id="6B0D8083-27A7-11B1-5745-C99A6F184143">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 16:30:42 UTC</createdTime>
+<ownerDesignName>zoo_model_01</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SPECIALIZATION" id="59ED8797-72BE-92DF-E059-81CC4C16FEEF">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 16:31:09 UTC</createdTime>
+<ownerDesignName>zoo_model_01</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIVISION_ID" id="240F3380-3BB0-65CD-7CFD-4C6D1BDB806B">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 16:31:35 UTC</createdTime>
+<ownerDesignName>zoo_model_01</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="968E2105-80D1-9718-CF54-917449D7725D">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 16:35:20 UTC</createdTime>
+<generatorID>2D338622-2264-54C7-3ED7-A5429E15E1DB</generatorID>
+<ownerDesignName>zoo_model_01</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<referedAttribute>1309B7AF-797D-ACBF-78A7-8E574AD84E81</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="83F5736E-977E-B826-4EE4-23D16D07FCA2">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 16:36:02 UTC</createdTime>
+<generatorID>9166829B-DE2F-7EA0-463B-67796783C4A7</generatorID>
+<ownerDesignName>zoo_model_01</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C29ACB12-8523-7F20-089D-0F6A3D11F419</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID11" id="0F16883D-725A-16F4-34CB-2B315DFF0C17">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 16:36:02 UTC</createdTime>
+<generatorID>9166829B-DE2F-7EA0-463B-67796783C4A7</generatorID>
+<ownerDesignName>zoo_model_01</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>968E2105-80D1-9718-CF54-917449D7725D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="808652F0-3740-ECB3-1803-04182D226A2F" name="STAFF PK">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 16:27:06 UTC</createdTime>
+<ownerDesignName>zoo_model_01</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C29ACB12-8523-7F20-089D-0F6A3D11F419</attributeRef>
+<attributeRef>968E2105-80D1-9718-CF54-917449D7725D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
