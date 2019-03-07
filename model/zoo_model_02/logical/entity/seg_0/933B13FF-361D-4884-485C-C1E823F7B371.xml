@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="933B13FF-361D-4884-485C-C1E823F7B371" name="DIVISIONS">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 16:21:06 UTC</createdTime>
+<ownerDesignName>zoo_model_02</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="1309B7AF-797D-ACBF-78A7-8E574AD84E81">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 16:32:19 UTC</createdTime>
+<ownerDesignName>zoo_model_02</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="22EC4A23-6F73-EA4C-2261-9732CD71AE42">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 16:32:31 UTC</createdTime>
+<ownerDesignName>zoo_model_02</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB467363-4E59-4B8B-AF6E-F35EE579079F" name="DIVISIONS PK">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 16:32:23 UTC</createdTime>
+<ownerDesignName>zoo_model_02</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1309B7AF-797D-ACBF-78A7-8E574AD84E81</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

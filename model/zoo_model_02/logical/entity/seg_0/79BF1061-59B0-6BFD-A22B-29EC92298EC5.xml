@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79BF1061-59B0-6BFD-A22B-29EC92298EC5" name="SPONSORS">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 17:15:07 UTC</createdTime>
+<ownerDesignName>zoo_model_02</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="A3744650-A7AC-E38B-08C4-AFC97ABC8863">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 17:15:16 UTC</createdTime>
+<ownerDesignName>zoo_model_02</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="E4B2E557-2DE6-404A-7D30-73B03F40B94E">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 17:15:31 UTC</createdTime>
+<ownerDesignName>zoo_model_02</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="75CF0B82-2990-FE32-52AE-F50E23D0635A" name="SPONSORS PK">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-07 17:15:19 UTC</createdTime>
+<ownerDesignName>zoo_model_02</ownerDesignName>
+<engineerTo>
+<item key="D6E823A7-C68A-4395-D163-8C354B4A63FA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A3744650-A7AC-E38B-08C4-AFC97ABC8863</attributeRef>
+<attributeRef>45938E67-7FDF-94B0-E390-0844AC9ED538</attributeRef>
+<attributeRef>0A225020-FF3A-BF23-0E2F-7C2B623C547F</attributeRef>
+<attributeRef>381035A4-95E1-E716-0859-325F72329EF9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
