@@ -12,4 +12,9 @@
 	was added		-- line 3
 	
 	
-	
+--- test file 3
+
+ a new text			--- line 1
+ xyz				--- line 2
+ 
+ 
